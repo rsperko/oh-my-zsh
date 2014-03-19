@@ -46,7 +46,7 @@ CASE_SENSITIVE="true"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git mvn brew django github gradle jira node npm osx python svn-fast-info)
+plugins=(git mvn brew django github gradle java jira node npm osx python svn-fast-info)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -67,3 +67,5 @@ fi
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
+
+setjdk 1.7
