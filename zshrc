@@ -52,7 +52,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:/usr/local/sbin:$PATH
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # # Preferred editor for local and remote sessions
@@ -63,9 +63,13 @@ else
 fi
 
 # Compilation flags
-# export ARCHFLAGS="-arch x86_64"
+export ARCHFLAGS="-arch x86_64"
+export CFLAGS=-Qunused-arguments
+export CPPFLAGS=-Qunused-arguments
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
 setjdk 1.7
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
