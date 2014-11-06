@@ -73,3 +73,8 @@ export CPPFLAGS=-Qunused-arguments
 setjdk 1.7
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+# Added for phonegap
+export PATH="$PATH:/Applications/Development/adt-bundle-mac-x86_64-20140702/sdk/tools:/Applications/Development/adt-bundle-mac-x86_64-20140702/sdk/platform-tools"
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
